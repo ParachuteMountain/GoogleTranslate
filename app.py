@@ -22,8 +22,8 @@ print("1")
 print("1")
 print("1")
 print("1")
-print(dir(gtrans))
-from gtrans import lang,translation, GetLanguages
+print(dir(gtrans.gtrans))
+from gtrans.gtrans import lang,translation, GetLanguages
 
 app = FastAPI()
 
