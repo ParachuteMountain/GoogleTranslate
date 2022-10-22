@@ -15,6 +15,13 @@ from fastapi.middleware.cors import CORSMiddleware
 
 # Import files
 import gtrans
+print("1")
+print("1")
+print("1")
+print("1")
+print("1")
+print("1")
+print("1")
 print(dir(gtrans))
 from gtrans import lang,translation, GetLanguages
 
