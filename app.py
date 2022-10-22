@@ -14,6 +14,8 @@ from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 
 # Import files
+import gtrans
+print(dir(gtrans))
 from gtrans import lang,translation, GetLanguages
 
 app = FastAPI()
